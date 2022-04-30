@@ -1,0 +1,602 @@
+﻿$(if http-status == 302)Hotspot login required$(endif)
+$(if http-header == "Location")$(link-redirect)$(endif)
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trairas.net</title>
+    <link rel="icon" href="assets\img\favicon.png">
+    <link rel="apple-touch-icon" href="assets\img\favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+    <link id="bootstrap_theme" rel="stylesheet" href="assets\css\theme-6-bootstrap.css">
+    <link rel="stylesheet" href="assets\css\vendor.css">
+    <link id="theme" rel="stylesheet" href="assets\css\theme-6.css">
+    <link rel="stylesheet" href="assets\css\demo.css">
+    <link rel="stylesheet" href="assets\css\custom.css">
+    <script src="assets\js\modernizr.js"></script>
+  </head>
+  <body>
+<!-- 
+======================================================
+created     : Lalat Merah
+situs       : gerakanopensource.wordpress.com
+whatsapp    : 082-120-215-248
+ig          : @alpuketmerah
+====================================================== 
+-->
+    <div class="site">
+      <div id="site_loader" class="site-loader">
+        <div class="spinner"><span class="bounce"></span><span class="bounce"></span><span class="bounce"></span></div>
+      </div>
+      <div class="site-canvas">
+        <div id="site_header" class="site-header">
+          <nav id="site_header_navbar" class="site-header-navbar navbar navbar-fixed-top navbar-lg navbar-bg-from-transparent navbar-fg-from-light navbar-light">
+            <div class="container">
+              <div class="navbar-header">
+                <button type="button" data-toggle="collapse" data-target="#site_header_navbar_collapse" class="navbar-toggle collapsed"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="login.html" class="navbar-brand navbar-brand-has-media"><span class="navbar-brand-elem-wrap"><span class="text">Brand</span><img src="assets\img\super-mi-slide-dark.png" alt="" class="navbar-brand-media-img navbar-brand-media-img-dark"><img src="assets\img\super-mi-slide-light.png" alt="" class="navbar-brand-media-img navbar-brand-media-img-light"></span></a>
+              </div>
+              <div id="site_header_navbar_collapse" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#page_intro_section" data-smooth-scroll="true"><span class="navbar-nav-elem-wrap"><span class="text">Home</span></span></a></li>
+                  <li><a href="#service_section" data-smooth-scroll="true"><span class="navbar-nav-elem-wrap"><span class="text">Serviços</span></span></a></li>
+                  <li><a href="#portfolio_section" data-smooth-scroll="true"><span class="navbar-nav-elem-wrap"><span class="text">Produtos</span></span></a></li>
+                  <li><a href="#testimonial_section" data-smooth-scroll="true"><span class="navbar-nav-elem-wrap"><span class="text">Instruções</span></span></a></li>
+                  <li><a href="#pricing_section" data-smooth-scroll="true"><span class="navbar-nav-elem-wrap"><span class="text">Planos</span></span></a></li>
+                  <li><a href="#faq_section" data-smooth-scroll="true"><span class="navbar-nav-elem-wrap"><span class="text">FAQ</span></span></a></li>
+                  <li><a href="#contact_section" data-smooth-scroll="true"><span class="navbar-nav-elem-wrap"><span class="text">Contato</span></span></a></li>
+                  <li><a href="status.html"><span class="navbar-nav-elem-wrap"><span class="text">Status</span></span></a></li>
+                  <li><a href="logout.html?erase-cookie=true"><span class="navbar-nav-elem-wrap"><span class="text">Logout</span></span></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div id="site_content" class="site-content">
+          <div id="page_intro_section" style="height:100vh;"  class="align align-middle page-intro-section page-intro-section-md section section-md">
+            <div data-bg-slideshow-src="assets/img/%.jpg" data-bg-slideshow-amount='6' data-slideshow-delay='7000' data-bg-slideshow-animation="kenburns" class="bg-slideshow"></div>
+            <div data-css-opacity=".5" class="bg-overlay bg-black"></div>
+            <div class="align-container">
+              <div class="container">
+                <div class="flexible-widgets row d-sm-flex flex-items-sm-middle">
+                  <div class="widget-section widget widget_text wow fadeInUpShort col-md-6 text-center text-sm-inherit">
+                    <div class="widget-wrap">
+                      <h1 class="widget-title primary-text-light">Hotspot</h1>
+                      <div class="textwidget">
+                        <p class="text-lead primary-text-light">Bem-vindo $(username) ! Escolha para navegar!</p>
+                        <div class="row">
+                          <div class="col-md-3 col-xs-4">
+                            <div class="form-group mb-0"><a href="http://google.com" target="_blank"><img class="iconbox-media-img" src="assets/img/img-web/google.png" alt="Google"><p align=center>Google</p></a></div> 
+                          </div> 
+                          <div class="col-md-3 col-xs-4">
+                            <div class="form-group mb-0"><a href="http://youtube.com" target="_blank"><img class="iconbox-media-img" src="assets/img/img-web/youtube.png" alt="Youtube"><p align=center>Youtube</p></a></div> 
+                          </div> 
+                          <div class="col-md-3 col-xs-4">
+                            <div class="form-group mb-0"><a href="http://facebook.com" target="_blank"><img class="iconbox-media-img" src="assets/img/img-web/facebook.png" alt="Facebook"><p align=center>Facebook</p></a></div> 
+                          </div> 
+                          <div class="col-md-3 col-xs-4">
+                            <div class="form-group mb-0"><a href="http://tokopedia.com" target="_blank"><img class="iconbox-media-img" src="assets/img/img-web/tokopedia.png" alt="Tokopedia"><p align=center>Tokopedia</p></a></div> 
+                          </div> 
+                          <div class="col-md-3 col-xs-4">
+                            <div class="form-group mb-0"><a href="https://shopee.co.id" target="_blank"><img class="iconbox-media-img" src="assets/img/img-web/shopee.png" alt="Shopee"><p align=center>Shopee</p></a></div> 
+                          </div> 
+                          <div class="col-md-3 col-xs-4">
+                            <div class="form-group mb-0"><a href="https://wa.me/6282120215248?text=ping" target="_blank"><img class="iconbox-media-img" src="assets/img/img-web/whatsapp.png" alt="Whatsapp"><p align=center>Whatsapp</p></a></div> 
+                          </div>
+                          <div class="col-md-3 col-xs-4">
+                            <div class="form-group mb-0"><a href="http://twitter.com/" target="_blank"><img class="iconbox-media-img" src="assets/img/img-web/twitter.png" alt="Twitter"><p align=center>Twitter</p></a></div> 
+                          </div> 
+                          <div class="col-md-3 col-xs-4">
+                            <div class="form-group mb-0"><a href="http://www.instagram.com/alpuketmerah/" target="_blank"><img class="iconbox-media-img" src="assets/img/img-web/instagram.png" alt="Instagram"><p align=center>Instagram</p></a></div> 
+                          </div> 
+                          <div class="col-md-3 col-xs-4">
+                            <div class="form-group mb-0"><a href="http://maps.google.com/" target="_blank"><img class="iconbox-media-img" src="assets/img/img-web/maps.png" alt="Maps"><p align=center>Maps</p></a></div> 
+                          </div> 
+                          <div class="col-md-3 col-xs-4">
+                            <div class="form-group mb-0"><a href="http://play.google.com/" target="_blank"><img class="iconbox-media-img" src="assets/img/img-web/playstore.png" alt="Playstore"><p align=center>Playstore</p></a></div> 
+                          </div> 
+                          <div class="col-md-3 col-xs-4">
+                            <div class="form-group mb-0"><a href="http://drive.google.com/" target="_blank"><img class="iconbox-media-img" src="assets/img/img-web/drive.png" alt="Drive"><p align=center>Drive</p></a></div> 
+                          </div> 
+                          <div class="col-md-3 col-xs-4">
+                            <div class="form-group mb-0"><a href="http://mail.google.com/" target="_blank"><img class="iconbox-media-img" src="assets/img/img-web/gmail.png" alt="Gmail"><p align=center>Gmail</p></a></div> 
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-wow-delay="100ms" class="widget-section widget widget_text col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0 col-md-5 col-md-offset-1 mt-vr mt-sm-0 wow fadeInUpShort">
+                    <div class="widget-wrap">
+                      <div class="textwidget"><img src="assets\img\page-intro-shopping.png" alt="" class="img-responsive mx-auto"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .section-->
+          <div id="service_section" class="service-section section section-md bg-light">
+            <div class="container">
+              <div class="flexible-widgets row">
+                <div class="widget-section widget widget_text wow fadeInUpShort col-md-8 col-md-offset-2 mb-xl text-center">
+                  <div class="widget-wrap">
+                    <h2 class="widget-title primary-text-dark">SERVIÇOS</h2>
+                    <div class="textwidget">
+                      <p class="text-lead primary-text-dark">Existem outros serviços que você pode precisar...</p>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="100ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-gg wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card media-object-card card-light">
+                        <div class="media">
+                          <div class="media-left"><img src="assets\img\service-icon-1.png" alt="" class="media-object avatar avatar-lg">
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">Desenvolvimento web</h4>
+                            <p>
+                              Serviço de criação de sites para seu Negócio, Loja virtual, Site de portfólio, Landing Page, Blog Pessoal, Entretenimento, etc.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="200ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-gg wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card media-object-card card-light">
+                        <div class="media">
+                          <div class="media-left"><img src="assets\img\service-icon-2.png" alt="" class="media-object avatar avatar-lg">
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">Impressão e Xerox</h4>
+                            <p>
+                              Serviços de impressão, xerox de documentos, logotipos, edição de vídeo, edição de fotos, download de arquivos, etc.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="300ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-gg wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card media-object-card card-light">
+                        <div class="media">
+                          <div class="media-left"><img src="assets\img\service-icon-3.png" alt="" class="media-object avatar avatar-lg">
+                          </div>
+                          <div class="media-body">
+                            <h4 class="media-heading">Serviços de Informática</h4>
+                            <p>
+                              Montagem e manutenção de computadores, manutenção em celulares, formatação, remoção de conta google, etc.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .section-->
+          <div id="portfolio_section" class="portfolio-section section section-md bg-light-dk">
+            <div class="container">
+              <div class="flexible-widgets row">
+                <div class="widget-section widget widget_text wow fadeInUpShort col-md-8 col-md-offset-2 mb-xl text-center">
+                  <div class="widget-wrap">
+                    <h2 class="widget-title primary-text-dark">Loja M&E-Informática</h2>
+                    <div class="textwidget">
+                      <p class="text-lead primary-text-dark">Lista de alguns produtos da loja...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flexible-widgets row popup-gallery">
+                <div data-wow-delay="100ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-gg wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card card-light">
+                        <div class="card-media"><a href="assets\img\portfolio-1.png" class="popup-gallery-link"><img src="assets\img\portfolio-1.png" alt="" class="card-img"></a></div>
+                        <div class="card-header">
+                          <div class="card-avatar"><img src="assets\img\portfolio-avatar-1.png" alt="" class="avatar"></div>
+                          <div class="card-text"><span class="title">Produtos de Infórmatica</span><span class="subtitle">Estabilizador, Mouse, Teclado, Disco Rigido, etc.</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="200ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-gg wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card card-light">
+                        <div class="card-media"><a href="assets\img\portfolio-2.png" class="popup-gallery-link"><img src="assets\img\portfolio-2.png" alt="" class="card-img"></a></div>
+                        <div class="card-header">
+                          <div class="card-avatar"><img src="assets\img\portfolio-avatar-2.png" alt="" class="avatar"></div>
+                          <div class="card-text"><span class="title">Capinhas para Celulares</span><span class="subtitle">Silicone, Anti-impacto, Capinhas transparentes.</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="300ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-gg wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card card-light">
+                        <div class="card-media"><a href="assets\img\portfolio-3.png" class="popup-gallery-link"><img src="assets\img\portfolio-3.png" alt="" class="card-img"></a></div>
+                        <div class="card-header">
+                          <div class="card-avatar"><img src="assets\img\portfolio-avatar-3.png" alt="" class="avatar"></div>
+                          <div class="card-text"><span class="title">Películas para Celulares</span><span class="subtitle">Películas de vidro, Películas 3D, 5D, 9D</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="300ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-gg wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card card-light">
+                        <div class="card-media"><a href="assets\img\portfolio-mobile-1.png" class="popup-gallery-link"><img src="assets\img\portfolio-mobile-1.png" alt="" class="card-img"></a></div>
+                        <div class="card-header">
+                          <div class="card-avatar"><img src="assets\img\portfolio-avatar-3.png" alt="" class="avatar"></div>
+                          <div class="card-text"><span class="title">Carregadores para Celular</span><span class="subtitle">Marca, Kaidi, H'maston, Inova.</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="300ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-gg wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card card-light">
+                        <div class="card-media"><a href="assets\img\portfolio-mobile-2.png" class="popup-gallery-link"><img src="assets\img\portfolio-mobile-2.png" alt="" class="card-img"></a></div>
+                        <div class="card-header">
+                          <div class="card-avatar"><img src="assets\img\portfolio-avatar-3.png" alt="" class="avatar"></div>
+                          <div class="card-text"><span class="title">Cabos USB!</span><span class="subtitle">Marca, Kaidi, H'maston, Inova.</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="300ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-gg wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card card-light">
+                        <div class="card-media"><a href="assets\img\portfolio-mobile-3.png" class="popup-gallery-link"><img src="assets\img\portfolio-mobile-3.png" alt="" class="card-img"></a></div>
+                        <div class="card-header">
+                          <div class="card-avatar"><img src="assets\img\portfolio-avatar-3.png" alt="" class="avatar"></div>
+                          <div class="card-text"><span class="title">Consulte Disponibilidade!</span><span class="subtitle">Caso não encontre o que precise, só nos avisar</span></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .section-->
+          <div id="testimonial_section" class="testimonial-section section section-md bg-light-dk">
+            <div class="container">
+              <div class="flexible-widgets row">
+                <div class="widget-section widget widget_text wow fadeInUpShort col-md-8 col-md-offset-2 mb-xl text-center">
+                  <div class="widget-wrap">
+                    <h2 class="widget-title primary-text-dark">Instruções de uso dos Produtos</h2>
+                    <div class="textwidget">
+                      <p class="text-lead primary-text-dark">É muito importante para que todos os problemas sejam resolvidos...</p>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="100ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-vr wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card blockquote-card card-light">
+                        <div class="card-block">
+                          <div class="card-title">
+                            <div class="card-text"><span class="title">Seu produto deu defeito?</span><span class="subtitle"><span class="icon fa fa-star"></span><span class="icon fa fa-star"></span><span class="icon fa fa-star"></span><span class="icon fa fa-star"></span><span class="icon fa fa-star"></span></span></div>
+                          </div>
+                          <div class="card-content">
+                            <p>
+                              Pode trazer aqui, na loja que nos vamos dar uma olhada, dependendo do deifeito, nos resolvemos, ou trocamos por outro!
+                            </p>
+                          </div>
+                        </div>
+                        <div class="card-header">
+                          <div class="card-avatar"><img src="assets\img\client-testimonial-avatar-1.png" alt="" class="avatar"></div>
+                          <div class="card-text"><span class="title">Hugo</span>
+                            <cite class="subtitle">Técnico</cite>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="200ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-vr wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card blockquote-card card-light">
+                        <div class="card-block">
+                          <div class="card-title">
+                            <div class="card-text"><span class="title">Como funciona a Devolução!</span><span class="subtitle"><span class="icon fa fa-star"></span><span class="icon fa fa-star"></span><span class="icon fa fa-star"></span><span class="icon fa fa-star"></span><span class="icon fa fa-star"></span></span></div>
+                          </div>
+                          <div class="card-content">
+                            <p>
+                              Comprou o produto, testou e estava funcionando, mas depois de um tempo deu defeito, ai trocamos por outro!.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="card-header">
+                          <div class="card-avatar"><img src="assets\img\client-testimonial-avatar-2.png" alt="" class="avatar"></div>
+                          <div class="card-text"><span class="title">Marciel</span>
+                            <cite class="subtitle">Proprietário</cite>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="300ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-vr wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card blockquote-card card-light">
+                        <div class="card-block">
+                          <div class="card-title">
+                            <div class="card-text"><span class="title">Situação em que não haverá devolução!</span><span class="subtitle"><span class="icon fa fa-star"></span><span class="icon fa fa-star"></span><span class="icon fa fa-star"></span><span class="icon fa fa-star"></span><span class="icon fa fa-star"></span></span></div>
+                          </div>
+                          <div class="card-content">
+                            <p>
+                              O Cliente compra o produto, só que deixou cair, ou qualquer outra forma de mal uso detectada, não haverá devolução!
+                            </p>
+                          </div>
+                        </div>
+                        <div class="card-header">
+                          <div class="card-avatar"><img src="assets\img\client-testimonial-avatar-3.png" alt="" class="avatar"></div>
+                          <div class="card-text"><span class="title">Rika</span>
+                            <cite class="subtitle">Cliente</cite>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .section-->
+          <div id="pricing_section" class="pricing-section section section-md bg-light">
+            <div class="container">
+              <div class="flexible-widgets row">
+                <div class="widget-section widget widget_text wow fadeInUpShort col-md-8 col-md-offset-2 mb-xl text-center">
+                  <div class="widget-wrap">
+                    <h2 class="widget-title primary-text-dark">Planos de Internet pré pago!</h2>
+                    <div class="textwidget">
+                      <p class="text-lead primary-text-dark">Lista de preços para pacotes de serviços de internet ilimitados</p>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="100ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-gg wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card pricing-table-card card-light">
+                        <div class="card-media"><img src="assets\img\pricing-table-icon-1.png" alt="" width="72" height="72" class="img"></div>
+                        <div class="card-title">
+                          <div class="card-text"><span class="title">Starter</span><span class="price"><span class="currency">R$</span><span class="value">2,00</span><span class="per">/24_Hs</span></span></div>
+                        </div>
+                        <div class="card-content">
+                          <ul>
+                            <li><span class="elem-wrap"><span class="text">Velocidade 2 Mbps</span></span></li>
+                            <li><span class="elem-wrap"><span class="text">Pacote inlimitado</span></span></li>
+                            <li><span class="elem-wrap"><span class="text">-</span></span></li>
+                            <li><span class="elem-wrap"><span class="text">-</span></span></li>
+                          </ul>
+                        </div>
+                        <div class="card-cta"><a href="#contact_section" data-smooth-scroll="true" class="btn btn-wide btn-primary"><span class="btn-elem-wrap"><span class="text">Contato</span></span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="200ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-gg wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card pricing-table-card card-light"><span class="card-badge"><span class="icon fa fa-star"></span></span>
+                        <div class="card-media"><img src="assets\img\pricing-table-icon-2.png" alt="" width="72" height="72" class="img"></div>
+                        <div class="card-title">
+                          <div class="card-text"><span class="title">Premium</span><span class="price"><span class="currency">R$</span><span class="value">3,00</span><span class="per">/48_Hs</span></span></div>
+                        </div>
+                        <div class="card-content">
+                          <ul>
+                            <li><span class="elem-wrap"><span class="text">Velocidade 5 Mbps</span></span></li>
+                            <li><span class="elem-wrap"><span class="text">Pacote inlimitado</span></span></li>
+                            <li><span class="elem-wrap"><span class="text">-</span></span></li>
+                            <li><span class="elem-wrap"><span class="text">-</span></span></li>
+                          </ul>
+                        </div>
+                        <div class="card-cta"><a href="#contact_section" data-smooth-scroll="true" class="btn btn-wide btn-primary"><span class="btn-elem-wrap"><span class="text">Contato</span></span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-wow-delay="300ms" class="widget-section widget widget_text col-sm-6 col-md-4 mb-gg wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card pricing-table-card card-light">
+                        <div class="card-media"><img src="assets\img\pricing-table-icon-3.png" alt="" width="72" height="72" class="img"></div>
+                        <div class="card-title">
+                          <div class="card-text"><span class="title">Ultimate</span><span class="price"><span class="currency">R$</span><span class="value">10,00</span><span class="per">/7_Dias</span></span></div>
+                        </div>
+                        <div class="card-content">
+                          <ul>
+                            <li><span class="elem-wrap"><span class="text">Velocidade 10 Mbps</span></span></li>
+                            <li><span class="elem-wrap"><span class="text">Pacote inlimitado</span></span></li>
+                            <li><span class="elem-wrap"><span class="text">-</span></span></li>
+                            <li><span class="elem-wrap"><span class="text">-</span></span></li>
+                          </ul>
+                        </div>
+                        <div class="card-cta"><a href="#contact_section" data-smooth-scroll="true" class="btn btn-wide btn-primary"><span class="btn-elem-wrap"><span class="text">Contato</span></span></a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .section-->
+          <div id="faq_section" class="faq-section section section-md bg-light">
+            <div class="container">
+              <div class="flexible-widgets row">
+                <div class="widget-section widget widget_text wow fadeInUpShort col-md-8 col-md-offset-2 mb-xl text-center">
+                  <div class="widget-wrap">
+                    <h2 class="widget-title primary-text-dark">Perguntas Frequentes</h2>
+                  </div>
+                </div>
+                <div data-wow-delay="100ms" class="widget-section widget widget_text col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div id="accordion_1" class="expansion-panel-group expansion-panel-group-light">
+                        <div class="expansion-panel panel"><a data-toggle="collapse" data-parent="#accordion_1" href="#collapse_1" class="expansion-panel-header active"><span class="expansion-panel-text"><span class="expansion-panel-text-elem-wrap"><span class="title">O que é o Hotspot MK?</span></span></span><span class="expansion-panel-cta"><span class="expansion-panel-cta-elem-wrap"><span class="icon icon-fw icon-active fa fa-minus"></span><span class="icon icon-fw icon-inactive fa fa-plus"></span></span></span></a>
+                          <div id="collapse_1" class="accordion-body collapse in">
+                            <div class="expansion-panel-body">
+                              O MK Hotspot é um serviço de internet baseado em hotspot com alta velocidade sem cota, mas a um preço acessível.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="expansion-panel panel"><a data-toggle="collapse" data-parent="#accordion_1" href="#collapse_2" class="expansion-panel-header"><span class="expansion-panel-text"><span class="expansion-panel-text-elem-wrap"><span class="title">Como registrar?</span></span></span><span class="expansion-panel-cta"><span class="expansion-panel-cta-elem-wrap"><span class="icon icon-fw icon-active fa fa-minus"></span><span class="icon icon-fw icon-inactive fa fa-plus"></span></span></span></a>
+                          <div id="collapse_2" class="accordion-body collapse">
+                            <div class="expansion-panel-body">
+                              Para registrar ou assinar o serviço MK Hotspot, você pode entrar em contato com um dos dois telefones na seção Contato.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="expansion-panel panel"><a data-toggle="collapse" data-parent="#accordion_1" href="#collapse_3" class="expansion-panel-header"><span class="expansion-panel-text"><span class="expansion-panel-text-elem-wrap"><span class="title">Como usar?</span></span></span><span class="expansion-panel-cta"><span class="expansion-panel-cta-elem-wrap"><span class="icon icon-fw icon-active fa fa-minus"></span><span class="icon icon-fw icon-inactive fa fa-plus"></span></span></span></a>
+                          <div id="collapse_3" class="accordion-body collapse">
+                            <div class="expansion-panel-body">
+                                Depois de se inscrever no serviço MK Hotspot, você receberá um nome de usuário e uma senha que podem ser usados para acessar a internet.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="expansion-panel panel"><a data-toggle="collapse" data-parent="#accordion_1" href="#collapse_4" class="expansion-panel-header"><span class="expansion-panel-text"><span class="expansion-panel-text-elem-wrap"><span class="title">O acesso à internet é ilimitado?</span></span></span><span class="expansion-panel-cta"><span class="expansion-panel-cta-elem-wrap"><span class="icon icon-fw icon-active fa fa-minus"></span><span class="icon icon-fw icon-inactive fa fa-plus"></span></span></span></a>
+                          <div id="collapse_4" class="accordion-body collapse">
+                            <div class="expansion-panel-body">
+                              Todos os serviços de pacote fornecidos são ilimitados, você pode baixar, carregar quantos dados quiser sem se preocupar em ficar sem cota.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .section-->
+          <div id="contact_section" class="contact-section section section-md bg-light-dk">
+            <div class="container">
+              <div class="flexible-widgets row">
+                <div class="widget-section widget widget_text wow fadeInUpShort col-md-8 col-md-offset-2 mb-xl text-center">
+                  <div class="widget-wrap">
+                    <h2 class="widget-title primary-text-dark">Contate-Nos</h2>
+                    <div class="textwidget">
+                      <p class="text-lead primary-text-dark">Se você deseja assinar o serviço MK Hotspot ou precisar de outros serviços, entre em contato conosco...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flexible-widgets row d-sm-flex flex-items-sm-middle">
+                <div data-wow-delay="100ms" class="widget-section widget widget_text col-sm-7 col-md-6 col-md-offset-1 col-lg-5 col-lg-offset-1 mb-gg wow fadeInUpShort">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div class="card card-light">
+                        <div class="flexible-widgets row popup-gallery">
+                          <div class="widget-wrap">
+                            <div class="textwidget">
+                              <div class="card card-light">
+                                <div class="card-media"><a href="assets\img\map.png" class="popup-gallery-link"><img src="assets\img\map.png" alt="" class="card-img"></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- <iframe width="700" height="430" src="assets\img\map.png" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"></iframe> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget-section widget widget_text col-sm-5 col-md-4 col-md-offset-0 col-lg-4 col-lg-offset-1">
+                  <div class="widget-wrap">
+                    <div class="textwidget">
+                      <div data-wow-delay="200ms" class="card card media-object-card mb-gg card-light wow fadeInUpShort">
+                        <div class="media">
+                          <div class="media-left"><img src="assets\img\contact-info-icon-1.png" alt="" class="media-object avatar avatar-lg"></div>
+                          <div class="media-body">
+                            <h4 class="media-heading">Endereço</h4>
+                            <p><a href="https://goo.gl/maps/Am1wvWSnGVHEZyNJA">Avenida João Durval Carneiro S/N</a><br>Traíras, Serra Dourada-BA</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-wow-delay="300ms" class="card card media-object-card mb-gg card-light wow fadeInUpShort">
+                        <div class="media">
+                          <div class="media-left"><img src="assets\img\contact-info-icon-2.png" alt="" class="media-object avatar avatar-lg"></div>
+                          <div class="media-body">
+                            <h4 class="media-heading">Nosso Contato</h4>
+                            <p><b>Cel:</b> +55 (77) 99851-4437<br><b>WhatsApp: </b><a href="https://wa.me/77999858856?text=ping">+55 (77) 99985-8856</a> </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-wow-delay="400ms" class="card card media-object-card mb-gg card-light wow fadeInUpShort">
+                        <div class="media">
+                          <div class="media-left"><img src="assets\img\contact-info-icon-3.png" alt="" class="media-object avatar avatar-lg"></div>
+                          <div class="media-body">
+                            <h4 class="media-heading">Endereço de E-mail</h4>
+                            <p><b>Loja:</b> <a href="mailto:mie.informatica10@gmail.com">mie.informatica10@gmail.com</a><br><b>Suporte:</b> <a href="mailto:marcieldssilva@gmail.com">marcieldssilva@gmail.com</a></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .section-->
+        </div>
+        <!-- .site-content-->
+        <div id="site_footer">
+          <div id="site_footer_info" class="site-footer-info section section-sm text-center bg-dark">
+            <div class="container">
+              <nav class="site-footer-social-nav mb-lg">
+                <ul class="site-footer-social-menu list-inline ml-0">
+                  <li data-wow-delay="100ms" class="menu-item px-md wow fadeInUpShort"><a href="https://www.facebook.com/" target="_blank" class="primary-text-light"><span>Facebook</span></a></li>
+                  <li data-wow-delay="200ms" class="menu-item px-md wow fadeInUpShort"><a href="https://twitter.com/" target="_blank" class="primary-text-light"><span>Twitter</span></a></li>
+                  <li data-wow-delay="300ms" class="menu-item px-md wow fadeInUpShort"><a href="https://plus.google.com/" target="_blank" class="primary-text-light"><span>Google+</span></a></li>
+                  <li data-wow-delay="400ms" class="menu-item px-md wow fadeInUpShort"><a href="https://wa.me/77998514437?text=ping" target="_blank" class="primary-text-light"><span>Whatsapp</span></a></li>
+                  <li data-wow-delay="500ms" class="menu-item px-md wow fadeInUpShort"><a href="https://www.instagram.com/" target="_blank" class="primary-text-light"><span>Instagram</span></a></li>
+                </ul>
+              </nav>
+              <div data-wow-delay="600ms" class="site-footer-copyright secondary-text-light wow fadeInUpShort">Copyright © 2022 All Rights Reserved.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets\js\jquery.min.js"></script>
+    <script src="assets\js\bootstrap.min.js"></script>
+    <script src="assets\js\vendor.js"></script>
+    <script src="assets\js\main.js"></script>
+    <script src="assets\js\demo.js"></script>
+    <script type="text/javascript">
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/5c33568c280f3649d4f3f644/default';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+  </script>
+  </body>
+</html>
